@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #eaeaea00;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+#name {
+    width: 100%;
+    box-shadow: 0 0 8px grey;
+}
+
+#email {
+    box-shadow: 0 0 8px grey;
+}
+
+#phoneNumber {
+    box-shadow: 0 0 8px grey;
+}
+
+#subject {
+    box-shadow: 0 0 8px grey;
+}
+
+#message {
+    box-shadow: 0 0 8px grey;
+}
+
+#textarea {
+    box-shadow: 0 0 8px grey;
+}
+
+#submit {
+    float: right;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(7, 9, 41);
+    color: white;
+}
+
+#submit:hover {
+    background-color: black;
+}
+
+/* navbar */
+
+nav {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 7vh;
+}
+
+nav .nav-left {
+    flex: 50%;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-left li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+nav .nav-left ul li a {
+    color: black;
+    padding-left: 10px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.nav-right a {
+    background-color: rgb(7, 9, 41);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* end navbar */
