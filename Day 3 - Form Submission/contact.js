@@ -16,7 +16,6 @@ function showData(){
     if ((name, email, phoneNumber, subject, message == '')) {
         return alert('All form inputs must be filled in to proceed');
       }
-      console.log('Semua input formulir harus diisi untuk melanjutkan');
     
       let emailReceiver = 'arymuslichudin@gmail.com';
     
